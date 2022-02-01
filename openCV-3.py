@@ -22,11 +22,11 @@ while True:
     y = 0
 
     for n in range(51):
-        if x <= 3520:
+        if x < 3840:
             cv2.imshow('web_cam{}'.format(n), frame)
             cv2.moveWindow('web_cam{}'.format(n),x, y)
             x += 320
-        elif y <= 840:
+        elif y < 1080:
             x=0
             y += 240
             cv2.imshow('web_cam{}'.format(n), frame)
