@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# my solution to lesson 6 homework
+### fills both my monitors with web cam casts
 import cv2
 
 print(cv2.__version__)
