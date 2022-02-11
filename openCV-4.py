@@ -10,9 +10,9 @@ print(cv2.__version__)
 rows = int(input("Boss, how many rows do you want? "))
 columns = int(input("How many columns? "))
 
-
-width = 640
-height = 320 
+# my dimensions are smaller than Paul's because this is the biggest output my camera can do
+width = 640 
+height = 480 
 
 cam = cv2.VideoCapture(0)
 cam.set(cv2.CAP_PROP_FRAME_WIDTH, width)
